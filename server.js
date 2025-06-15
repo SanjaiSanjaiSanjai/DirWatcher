@@ -20,7 +20,7 @@ app.use(morgan("dev"))
 app.use(route)
 
 
-
+// connecting mongoDB
 connectToMongoDB()
 
 app.listen(PORT, () => {
